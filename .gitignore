@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+venv/
+.env
+
+# Large Data & Datasets (Excluded)
+data/
+xray/data/
+test_images/
+static/uploads/*
+!static/uploads/.gitkeep
+
+# Model Weights (Usually too large for GitHub)
+*.pth
+*.h5
+notebook/best_model.pth
+
+# OS
+.DS_Store
+Thumbs.db

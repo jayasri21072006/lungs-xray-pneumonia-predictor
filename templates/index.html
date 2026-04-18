@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LungsAI | Deep Learning Diagnostics</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+    </div>
+
+    <main class="container">
+        <header>
+            <div class="logo">
+                <span class="icon">🫁</span>
+                <h1>Lungs<span>AI</span></h1>
+            </div>
+            <p class="subtitle">Deep Neural Analysis for Chest Radiography</p>
+        </header>
+
+        <section class="drop-zone-container">
+            <div class="glass-card" id="upload-card">
+                <div class="drop-zone" id="drop-zone">
+                    <div class="drop-zone-content">
+                        <div class="upload-icon">📤</div>
+                        <h3>Upload Chest X-Ray</h3>
+                        <p>Drag & drop or click to browse</p>
+                        <input type="file" id="file-input" hidden accept="image/*">
+                    </div>
+                </div>
+                <button id="analyze-btn" class="btn-primary" disabled>Analyze Scan</button>
+            </div>
+
+            <div class="glass-card hidden" id="result-card">
+                <div class="result-layout">
+                    <div class="preview-side">
+                        <img id="image-preview" src="" alt="X-Ray Scan">
+                    </div>
+                    <div class="data-side">
+                        <div class="diagnosis-header">
+                            <h4>Diagnosis Report</h4>
+                            <div class="status-badge" id="diagnosis-status">-</div>
+                        </div>
+                        <div class="metrics">
+                            <div class="metric-item">
+                                <label>Confidence Score</label>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" id="confidence-bar"></div>
+                                </div>
+                                <span id="confidence-text">0%</span>
+                            </div>
+                        </div>
+                        <p class="medical-disclaimer">Important: This is an AI-assisted tool. Results should be verified by a licensed radiologist.</p>
+                        <button id="reset-btn" class="btn-secondary">New Analysis</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="loading-overlay hidden" id="loading">
+            <div class="scanner-dot"></div>
+            <p>Scanning Neural Pathways...</p>
+        </div>
+    </main>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
