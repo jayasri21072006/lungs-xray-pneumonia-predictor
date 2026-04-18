@@ -120,4 +120,4 @@ If you wish to retrain or experiment with the architecture:
 This software is for **research and educational purposes only**. It is NOT a substitute for professional medical diagnosis, advice, or treatment.
 
 ---
-*Created with ❤️ by the LungsAI Team*
+*Created with ❤️ by me*
