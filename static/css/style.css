@@ -218,3 +218,20 @@ header {
 @media (max-width: 768px) {
     .result-layout { grid-template-columns: 1fr; }
 }
+
+.disclaimer-banner {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    background: rgba(255, 62, 62, 0.05);
+    border-left: 4px solid var(--danger);
+    border-radius: 10px;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.disclaimer-banner strong {
+    color: var(--danger);
+    display: block;
+    margin-bottom: 0.5rem;
+}
