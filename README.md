@@ -2,10 +2,10 @@
 
 
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C.svg)](https://pytorch.org/)
-[![Flask](https://img.shields.io/badge/Flask-Web_App-lightgrey.svg)](https://flask.palletsprojects.com/)
-[![Status](https://img.shields.io/badge/Status-Production--Ready-success.svg)]()
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C.svg)
+![Flask](https://img.shields.io/badge/Flask-Web_App-lightgrey.svg)
+![Status](https://img.shields.io/badge/Status-Production--Ready-success.svg)
 
 LungsAI is a state-of-the-art diagnostic assistant leveraging Deep Learning to identify Pneumonia from Chest X-Ray images with high precision. This project demonstrates a complete ML lifecycle from cloud-based training to local edge deployment.
 
