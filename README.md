@@ -1,6 +1,6 @@
 # LungsAI: Advanced Pneumonia Detection System
 
-![Project Banner](project_banner_1776527546053.png)
+
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C.svg)](https://pytorch.org/)
@@ -75,7 +75,7 @@ The model was evaluated on a held-out test set from the Chest X-Ray Images (Pneu
 ## 🚀 Getting Started
 
 ### Dataset Source
-This project uses the [Chest X-Ray Images (Pneumonia) dataset](https://www.kaggle.com/datasets/paultimothychoko/chest-xray-pneumonia) from Kaggle.
+This project uses the Covid-19 Normal Pneumonia dataset. However, for this specific application, only 2 of the classes ("NORMAL" and "PNEUMONIA") were utilized. The COVID-19 images were not included in the dataset for this project.
 To run the project locally, download the dataset and place the `train`, `test`, and `val` folders inside a directory named `data/` in the project root.
 
 ### Prerequisites
