@@ -13,10 +13,9 @@ test_images/
 static/uploads/*
 !static/uploads/.gitkeep
 
-# Model Weights (Usually too large for GitHub)
-*.pth
-*.h5
-notebook/best_model.pth
+# Model Weights (Small enough for GitHub)
+# (Excluded .pth ignore so model can deploy)
+scratch/
 
 # OS
 .DS_Store
