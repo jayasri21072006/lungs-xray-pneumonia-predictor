@@ -7,3 +7,4 @@ torch==2.0.0+cpu
 torchvision==0.15.0+cpu
 joblib==1.2.0
 tqdm==4.64.1
+numpy==1.26.4
